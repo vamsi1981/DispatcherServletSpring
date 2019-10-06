@@ -24,7 +24,7 @@ public class LoginController {
 		}else{
 			model.addAttribute("message", "Username /password is wrong.");
 		}
-		return "redirect:success.jsp";
+		return "redirect:/pages/success.jsp";
 	}
 	
 }
